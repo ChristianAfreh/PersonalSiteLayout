@@ -60,3 +60,29 @@ main div img{
     height: 100%;
     
 }
+
+@media screen and (max-width:900px) {
+    main{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    main footer{
+        border-bottom: 1px solid #a4a2a0;
+        padding-bottom: 10px;
+    }
+
+    main .panel.about div p{
+        border-bottom: 1px solid #3a2f2a;
+        padding: 10px;
+    }
+    main .panel.photos img{
+        grid-row: 1;
+        width: 100%;
+    }
+
+    main .panel.photos div p{
+        border-bottom: 1px solid #3a2f2a;
+        padding: 10px;
+    }
+}

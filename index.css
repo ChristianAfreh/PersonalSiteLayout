@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-size: 14px;
+    font-family: 'Poppins','Courier New', Courier, monospace;
+    margin: 0;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    height: 100%;
+}
+
+main div h2{
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+main div p{
+    line-height: 2em;
+}
+
+main footer{
+    align-self: self-end;
+}
+main .panel{
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: hidden;
+}
+
+main .panel.about, main .panel.photos{
+    background: #a4a2a0;
+    color:#3a2f2a
+}
+
+main .panel.about div, main .panel.photos div{
+    padding: 20px;
+}
+
+
+main .panel.welcome{
+    grid-auto-rows: 1fr;
+    background: #3a2f2a;
+    color: #a4a2a0;
+    padding: 40px 40px;
+}
+
+main .panel.welcome nav a{
+    text-decoration: none;
+    color: #8b8885;
+    padding: 0 10px;
+}
+
+
+
+main div img{
+    max-width: 100%;
+    
+}
